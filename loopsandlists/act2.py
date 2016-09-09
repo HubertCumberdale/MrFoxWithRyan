@@ -17,25 +17,25 @@ class ActTwo(object):
                      ' walking over to his desk, trailing shortly behind Mr. Fox. You know that your time is up, you '
                      'are going to have to think of something fast to avoid his wrath.')
 
-        options = ['Pull fire alarm, pretend to panic, run away downstairs and hope Mr. Fox forgets.']
+        choices = dict(ALARM='Pull fire alarm, pretend to panic, run away downstairs and hope Mr. Fox forgets.')
 
         if 'COFFEE' in self.my_inventory:
             throw_coffee = 'Intentionally spill your coffee all over the floor, pretend to slip in it and flail your' \
                            ' arms around uncontrollably until Mr. Fox gets scared and runs away.'
-            options.append(throw_coffee)
+            choices.update(COFFEE=throw_coffee)
 
         print_smooth('\n\nPlease enter the number of the action you would like to do.\n')
 
         choice_complete = False
         while not choice_complete:
             clear_screen()
-            choice = user_input(self, options)
+            choice = user_input(self, choices)
             try:
                 choice = int(choice)
             except:
                 print_smooth('You must enter a number from the options given, pilgrim!')
                 continue
-            if int(choice) > len(options):
+            if int(choice) > len(choices):
                 print_smooth('You must pick a number from the options given, pilgrim!')
                 continue
             clear_screen()

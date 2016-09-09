@@ -6,6 +6,7 @@ class MrFox(object):
 
     def __init__(self):
         self.my_inventory = ['LAPTOP']
+        self.name = ''
 
     def act_one(self):
         clear_screen()
@@ -15,12 +16,12 @@ class MrFox(object):
         raw_input('Press any key to continue')
         clear_screen()
 
-        username = user_input(self, "Please, tell me your name.\n\n")
-        if username.upper() == "JEREMIAH":
+        self.name = user_input(self, "Please, tell me your name.\n\n")
+        if self.name.upper() == "JEREMIAH":
             print 'Get out of my program!!!'
             exit()
 
-        print_smooth('Great! Thank you ' + username + '!')
+        print_smooth('Great! Thank you ' + self.name + '!')
 
         sex = user_input(self, "Are you a male or a female? \n\n")
 
@@ -50,7 +51,7 @@ class MrFox(object):
 
         time.sleep(2.5)
 
-        return ActTwo(self.my_inventory)
+        return ActTwo(self.my_inventory, self.name)
 
 start = MrFox()
 

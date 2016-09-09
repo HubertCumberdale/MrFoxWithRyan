@@ -20,16 +20,16 @@ class MrFox(object):
             print 'Get out of my program!!!'
             exit()
 
-        print_smooth('Great! Thank you ' + username + '!')
+        print_smooth('Great! Thank you, ' + username + '!')
 
         sex = user_input(self, "Are you a male or a female? \n\n")
 
         if 'f' in sex.lower():
             sex = 'FEMALE'
-            print_smooth("Thank you Ma'am.")
+            print_smooth("Thank you, ma'am.")
         else:
             sex = "MALE"
-            print_smooth("Thank you Sir.")
+            print_smooth("Thank you, sir.")
 
         clear_screen()
 

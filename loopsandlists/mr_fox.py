@@ -12,7 +12,7 @@ class MrFox(object):
         print_smooth("Welcome to my story about an evil Fox. \n\n\n\nCopyright Adam Mower & Ryan Throckmorton."
                      "\n\nAt any time during this story you can enter 'INV' to check your inventory.\n\n")
         time.sleep(1)
-        raw_input('Press any key to continue')
+        raw_input('Press enter to continue')
         clear_screen()
 
         username = user_input(self, "Please, tell me your name.\n\n")

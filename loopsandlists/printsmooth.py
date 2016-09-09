@@ -30,10 +30,10 @@ def user_input(obj, string_display=None):
 
     while not complete:
         if string_display:
-            if type(string_display) == list:
+            if type(string_display) == dict:
                 x = 1
-                for i in string_display:
-                    print_smooth(str(x) + '. ' + i +'\n\n')
+                for k, v in string_display.iteritems():
+                    print_smooth(str(k) + ': ' + v +'\n\n')
                     x += 1
             else:
                 print_smooth(string_display)
@@ -42,7 +42,7 @@ def user_input(obj, string_display=None):
         print '\n'
 
         if not user_in:
-            print_smooth('Sorry, I didn\'t catch that. Please enter that again.')
+            print_smooth('Sorry, I didn\'t catch that. Please enter that again.\n')
             continue
 
         if 'INV' in user_in.upper():

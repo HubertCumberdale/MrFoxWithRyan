@@ -25,17 +25,12 @@ def act_two(self):
     while not choice_complete:
         clear_screen()
         choice = user_input(self, choices)
-        try:
-            choice = int(choice)
-        except:
-            print_smooth('You must enter a number from the options given, pilgrim!')
-            continue
-        if int(choice) > len(choices):
-            print_smooth('You must pick a number from the options given, pilgrim!')
+        if choice not in choices:
+            print_smooth('You must enter a choice from the options given, pilgrim!')
             continue
         clear_screen()
 
-        if choice == int(1):
+        if choice == 'ALARM':
             print_smooth('Mr. Fox grabs you by the neck and begins to drag you away. "If you aren\'t going to '
                          'write those test cases and think pulling a fire alarm is funny, lets see how you like'
                          ' a real burning fire!! ')
@@ -46,10 +41,15 @@ def act_two(self):
             time.sleep(5)
             exit()
 
-        else:
+        elif choice == 'COFFEE':
             print_smooth('A bit of the coffee gets on to the back of Mr. Fox. Just like in the move gremlins, a'
                          ' bunch of miniature foxes begin launching from his back and attacking you. You perish, '
                          'never finishing your test cases.')
+            time.sleep(5)
+            exit()
+
+        else:
+            print_smooth('well...you lose. whatever.')
             time.sleep(5)
             exit()
 

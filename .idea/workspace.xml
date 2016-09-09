@@ -4,7 +4,7 @@
     <list default="true" id="80bfc6cc-2cdd-4366-ba18-3ade2e71c548" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loopsandlists/act2.py" afterPath="$PROJECT_DIR$/loopsandlists/act2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loopsandlists/mr_fox.py" afterPath="$PROJECT_DIR$/loopsandlists/mr_fox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loopsandlists/printsmooth.py" afterPath="$PROJECT_DIR$/loopsandlists/printsmooth.py" />
     </list>
     <ignored path="Python Sep 2 .iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="printsmooth.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loopsandlists/printsmooth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="833">
+              <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -79,8 +79,8 @@
       <file leaf-file-name="act2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loopsandlists/act2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+            <state relative-caret-position="918">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,9 +118,9 @@
         <option value="$PROJECT_DIR$/loopsandlists/forloops.py" />
         <option value="$PROJECT_DIR$/loopsandlists/while_loops.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/loopsandlists/mr_fox.py" />
         <option value="$PROJECT_DIR$/loopsandlists/printsmooth.py" />
         <option value="$PROJECT_DIR$/loopsandlists/act2.py" />
-        <option value="$PROJECT_DIR$/loopsandlists/mr_fox.py" />
       </list>
     </option>
   </component>
@@ -521,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473455603167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed second class, returns to function now">
+      <created>1473458176120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1473458176120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -583,7 +590,8 @@
     <MESSAGE value="added logic if user_input is blank" />
     <MESSAGE value="added dict for choices" />
     <MESSAGE value="removed wallet" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed wallet" />
+    <MESSAGE value="Removed second class, returns to function now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed second class, returns to function now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loopsandlists/printsmooth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loopsandlists/mr_fox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -999,10 +999,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loopsandlists/printsmooth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loopsandlists/act2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+        <state relative-caret-position="918">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -41,6 +41,10 @@ def user_input(obj, string_display=None):
         user_in = raw_input('>>> ')
         print '\n'
 
+        if not user_in:
+            print_smooth('Sorry, I didn\'t catch that. Please enter that again.')
+            continue
+
         if 'INV' in user_in.upper():
             if not obj.my_inventory:
                 print_smooth('Your inventory is empty')

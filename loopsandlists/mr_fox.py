@@ -5,7 +5,7 @@ from act2 import ActTwo
 class MrFox(object):
 
     def __init__(self):
-        self.my_inventory = ['LAPTOP', 'WALLET']
+        self.my_inventory = ['LAPTOP']
 
     def act_one(self):
         clear_screen()

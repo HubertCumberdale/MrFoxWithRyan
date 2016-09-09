@@ -10,10 +10,10 @@ class MrFox(object):
     def act_one(self):
         clear_screen()
         print_smooth("Welcome to my story about an evil Fox. \n\n\n\nCopyright Adam Mower & Ryan Throckmorton."
-                     "\n\nAt any time during this story you can enter 'INV' to check your inventory.")
+                     "\n\nAt any time during this story you can enter 'INV' to check your inventory.\n\n")
 
-        time.sleep(2)
-
+        raw_input('Press any key to continue')
+        time.sleep(1)
         clear_screen()
 
         username = user_input(self, "Please, tell me your name.\n\n")

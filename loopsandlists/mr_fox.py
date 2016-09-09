@@ -1,6 +1,6 @@
 from printsmooth import *
+from act2 import *
 
-from act2 import ActTwo
 
 class MrFox(object):
 
@@ -49,9 +49,9 @@ class MrFox(object):
             print_smooth('\n"You are a strong, independent ' + sex.lower() + " who don't need no stinkin' coffee!"
                          " You head upstairs to begin work. ")
 
-        time.sleep(2.5)
+        time.sleep(1.5)
 
-        return ActTwo(self.my_inventory, self.name)
+        return act_two(self)
 
 start = MrFox()
 

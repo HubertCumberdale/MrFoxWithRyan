@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bfc6cc-2cdd-4366-ba18-3ade2e71c548" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Python class.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifs/ex29whatif.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifs/ex30elseif.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifs/iwannaplayagame.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/act2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/forloops.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/mr_fox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/printsmooth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loopsandlists/while_loops.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="Python Sep 2 .iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,8 +87,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="1581">
+              <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -971,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="1581">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
           <folding />
         </state>
       </provider>

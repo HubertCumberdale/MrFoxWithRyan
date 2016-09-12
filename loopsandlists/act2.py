@@ -61,7 +61,8 @@ under pressure. You could smash it in hopes that it causes a distraction so you 
         elif choice =="LAPTOP":
             print_smooth("""You smash the laptop to the ground, while jumping back several steps, like a ninja with a
 smoke bomb. The battery does not explode... the recall was for that android phone, not your laptop. You stand still as
-everyone else laughs. Mr. Fox isn't laughing. He picks up the flopping laptop and bludgeons you to death with it.""")
+everyone else laughs. Mr. Fox isn't laughing. He picks up the flopping laptop and bludgeons you to death with it.
+Everyone continues to laugh.""")
             time.sleep(5)
             exit()
 

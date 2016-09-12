@@ -20,6 +20,7 @@ def act_two(self):
     choices = dict(ALARM='Pull fire alarm, pretend to panic, run away downstairs and hope Mr. Fox forgets.')
 
     if 'COFFEE' in self.my_inventory:
+        self.my_inventory.remove("COFFEE")
         throw_coffee = 'Intentionally spill your coffee all over the floor, pretend to slip in it and flail your' \
                        ' arms around uncontrollably until Mr. Fox gets scared and runs away.'
         choices.update(COFFEE=throw_coffee)

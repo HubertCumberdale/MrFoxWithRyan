@@ -44,7 +44,7 @@ class MrFox(object):
 
         if 'y' in coffee.lower():
             self.my_inventory.append('COFFEE')
-            print_smooth("\nYou pour yourself a warm cup o'joe and head upstairs. ")
+            print_smooth("\nYou pour yourself a luke-warm cup o'joe and head upstairs. ")
         elif 'n' in coffee.lower():
             print_smooth('\n"You are a strong, independent ' + sex.lower() + " who don't need no stinkin' coffee!"
                          " You head upstairs to begin work. ")

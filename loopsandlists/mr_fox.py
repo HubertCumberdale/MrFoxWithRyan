@@ -1,6 +1,6 @@
 from printsmooth import *
+from act2 import *
 
-from act2 import ActTwo
 
 class MrFox(object):
 
@@ -13,7 +13,7 @@ class MrFox(object):
         print_smooth("Welcome to my story about an evil Fox. \n\n\n\nCopyright Adam Mower & Ryan Throckmorton."
                      "\n\nAt any time during this story you can enter 'INV' to check your inventory.\n\n")
         time.sleep(.5)
-        raw_input('Press any key to continue')
+        raw_input('Press enter to continue')
         clear_screen()
 
         self.name = user_input(self, "Please, tell me your name.\n\n")
@@ -49,9 +49,9 @@ class MrFox(object):
             print_smooth('\n"You are a strong, independent ' + sex.lower() + " who don't need no stinkin' coffee!"
                          " You head upstairs to begin work. ")
 
-        time.sleep(2.5)
+        time.sleep(1.5)
 
-        return ActTwo(self.my_inventory, self.name)
+        return act_two(self)
 
 start = MrFox()
 

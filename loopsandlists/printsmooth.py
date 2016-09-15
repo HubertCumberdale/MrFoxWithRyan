@@ -52,4 +52,4 @@ def user_input(obj, string_display=None):
                 print_smooth('Your inventory contains: {}.\n\n'.format(', '.join(obj.my_inventory)))
                 continue
         else:
-            return user_in.upper()
+            return user_in

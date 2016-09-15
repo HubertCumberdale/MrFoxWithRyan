@@ -21,13 +21,14 @@ def act_two(self):
 
     if 'COFFEE' in self.my_inventory:
         self.my_inventory.remove("COFFEE")
-        throw_coffee = 'Intentionally spill your coffee all over the floor, pretend to slip in it and flail your' \
-                       ' arms around uncontrollably until Mr. Fox gets scared and runs away.'
+        throw_coffee = ('Intentionally spill your coffee all over the floor, pretend to slip in it and flail your '
+                        'arms around uncontrollably until Mr. Fox gets scared and runs away.')
         choices.update(COFFEE=throw_coffee)
 
     if "LAPTOP" in self.my_inventory:
-        detonate_laptop = """You remember that the battery in your laptop has a recall out for it, due to exploding
-under pressure. You could smash it in hopes that it causes a distraction so you can escape."""
+        detonate_laptop = ("You remember that the battery in your laptop has a recall due to exploding under pressure."
+                           " You could smash it in hopes that it causes a distraction so you can escape.")
+
         choices.update(LAPTOP=detonate_laptop)
 
     print_smooth('\n\nYou arrive at his desk. Please enter the key word of the action you would like to perform.\n')
@@ -60,10 +61,11 @@ under pressure. You could smash it in hopes that it causes a distraction so you 
             exit()
 
         elif choice =="LAPTOP":
-            print_smooth("""You smash the laptop to the ground, while jumping back several steps, like a ninja with a
-smoke bomb. The battery does not explode... the recall was for that android phone, not your laptop, dummy. You stand
-still as everyone else laughs. Mr. Fox isn't laughing. He picks up the flopping laptop and bludgeons you to death with
-it. Everyone else continues to laugh.""")
+            print_smooth("You smash the laptop to the ground, while jumping back several steps, like a ninja with a "
+                         "smoke bomb. The battery does not explode... the recall was for that android phone, not "
+                         "your laptop, dummy. You stand still as everyone else laughs. Mr. Fox isn't laughing. "
+                         "He picks up the flopping laptop and bludgeons you to death with it. Everyone else "
+                         "continues to laugh.")
             time.sleep(5)
             exit()
 

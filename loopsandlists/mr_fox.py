@@ -34,9 +34,9 @@ class MrFox(object):
 
         clear_screen()
 
-        print_smooth('It was a pleasant, fall morning. You come to work bubbling with anticipation for what the day '
-                     'will bring. You know that you have written only a few test cases the entire last quarter of work '
-                     'though. Today...today is the day you write those damn test cases.')
+        print_smooth('It was a pleasant, fall morning. \nYou come to work bubbling with anticipation for what the day '
+                     'will bring. \nYou know that you have written only a few test cases the entire last quarter of '
+                     'work though. \nToday...today is the day you write those damn test cases.')
 
         print_smooth('\n\nYou walk through the cafeteria into work. Do you grab yourself a coffee? Yes or No?')
 

@@ -12,16 +12,21 @@ def clear_screen():
 dict(hello='hello')
 
 def print_smooth(string):
-
     punctuation = [".", "!", "?"]
-    
+    recentLetters = [0, 0]
+
     for letter in string:
+
         stdout.write(letter)
         time.sleep(.035)
         stdout.flush()
 
         if letter in punctuation:
-            time.sleep(.5)
+            if recentLetters != ["M", "r"]:
+                time.sleep(.5)
+
+        recentLetters.extend(letter)
+        recentLetters.pop(0)
 
 
 def user_input(obj, string_display=None):

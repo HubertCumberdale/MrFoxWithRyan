@@ -33,10 +33,7 @@ def act_two(self):
 
         choices.update(LAPTOP=detonate_laptop)
 
-    print_smooth('\n\nYou arrive at his desk. Please select the key word of the action you would like to perform.\n'
-                 'Press enter when you are ready.')
-
-    raw_input()
+    print_smooth('\n\nYou arrive at his desk. Please select the key word of the action you would like to perform.\n')
 
     choice_complete = False
     while not choice_complete:
@@ -59,7 +56,7 @@ def act_two(self):
             exit()
 
         elif choice == 'COFFEE':
-            print_smooth('A bit of the coffee gets on to the back of Mr. Fox. \nJust like in the move gremlins, a'
+            print_smooth('A bit of the coffee gets on to the back of Mr. Fox. \nJust like in the movie gremlins, a'
                          ' bunch of miniature foxes begin launching from his back and attacking you. \n\nYou perish, '
                          'never finishing your test cases.')
             time.sleep(5)

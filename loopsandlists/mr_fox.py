@@ -28,15 +28,17 @@ class MrFox(object):
         if 'f' in gender.lower():
             gender = 'FEMALE'
             print_smooth("Thank you, ma'am.")
+            time.sleep(.5)
         else:
             gender = "MALE"
             print_smooth("Thank you, sir.")
+            time.sleep(.5)
 
         clear_screen()
 
-        print_smooth('It was a pleasant, fall morning. \nYou come to work bubbling with anticipation for what the day '
-                     'will bring. \nYou know that you have written only a few test cases the entire last quarter of '
-                     'work though. \nToday...today is the day you write those damn test cases.')
+        print_smooth('It was a pleasant, fall morning. \n\nYou come to work bubbling with anticipation for what the day'
+                     ' will bring...\nthough you know that you have written only a few test cases the entire \nlast '
+                     'quarter of work. \n\nToday...today is the day you write those damn test cases.')
 
         print_smooth('\n\nYou walk through the cafeteria into work. Do you grab yourself a coffee? Yes or No?')
 
@@ -47,7 +49,7 @@ class MrFox(object):
             print_smooth("\nYou pour yourself a luke-warm cup o'joe and head upstairs. ")
         else:
             print_smooth('\n"You are a strong, independent ' + gender.lower() + " who don't need no stinkin' coffee!"
-                         " You head upstairs to begin work. ")
+                         "\n\nYou head upstairs to begin work. ")
 
         time.sleep(1.5)
 

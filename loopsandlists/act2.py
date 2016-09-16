@@ -7,7 +7,7 @@ def act_two(self):
 
     print_smooth('You are almost to your desk when you notice something terrifying...\n\nThe most dreaded thing you can'
                  ' see in the morning. \n\nMr. Fox is standing right at your desk waiting for you. \n\n"Come over to my'
-                 ' desk, ' + self.name + '," he says. \n"I need to review the test cases written for your last '
+                 ' desk, ' + self.name + '," he says. \n"I need to review the test cases written for youry last '
                  'deployment."\n\n')
 
     raw_input('Press enter to follow Mr. Fox.')
@@ -18,6 +18,9 @@ def act_two(self):
         self.my_inventory.remove("LAPTOP")
     else:
         print_smooth("You grab your laptop and try not to hyperventilate.\n\n")
+
+    raw_input('Press enter to continue.')
+    clear_screen()
 
     print_smooth('You begin walking over to his desk, trailing shortly behind Mr. Fox. \n\nYou know that your time is '
                  'up, you are going to have to \nthink of something fast to avoid his wrath.')
